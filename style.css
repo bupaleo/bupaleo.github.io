@@ -43,7 +43,10 @@ body{
     font-style: normal;
     font-weight: 400;
 }
-
+.header__logo{
+    margin-left: 25px;
+    margin-right: 700px;
+}
 header{background-color: rgb(255, 255, 255); padding-bottom:10px}
 .header{
     font-family: 'Poppins';
@@ -53,9 +56,8 @@ header{background-color: rgb(255, 255, 255); padding-bottom:10px}
     font-weight: normal;
     position: fixed;
     top:0;
-    left:0;
-    width: 100%;
-    color: black;
+    
+    left:0;    color: black;
 }
     .wrapper{
         max-width: 1560px;
@@ -77,7 +79,7 @@ header{background-color: rgb(255, 255, 255); padding-bottom:10px}
     }
     a{        color: black}
     .header__item{
-        margin-right: 55px;
+        margin-right: 85px;
     }
 
 .intro{
@@ -95,6 +97,13 @@ header{background-color: rgb(255, 255, 255); padding-bottom:10px}
         font-weight: 700;
         font-size: 36px;
         margin-bottom: 22px;
+    }
+
+
+    @media only screen and (max-width: 550px) 
+    {}.intro__title .intro__subtitle{
+        font-size: 10
+
     }
     .intro__subtitle{
         width: 700px;
@@ -377,4 +386,92 @@ flex-wrap: wrap;
         background-color: rgb(83, 83, 83);
         margin: 4px;
     }
+    .distination, .first {
+        display: flex;
+        flex-wrap: wrap;
+        width: 150px;
+    }
+    .first_img{
+width: 220px;
+height: 220px;
+    }
+    .first_text{
+        font-size:17px; 
+        width: 200px;
+        margin-left:10px; 
+    }
+    .section-title{
+    font-size:10px
 }
+#first{margin-left:0}
+.search-from__submit{
+    margin-bottom:20px;
+}
+.wrapper{
+    margin-left:3px;
+}
+.header__wrapper{
+    margin-right: 5px;
+    font-size:10px;
+}
+.header__logo{
+    margin-left: 17px;
+}
+.intro__title{
+    font-size: 17px;    padding-top:150px;
+}
+.intro__subtitle{
+   font-size:17px; 
+width: 200px;
+margin-left:10px; }
+.search-from__submit{
+ width: 70px;
+ height: 700;
+}
+.distination{
+    margin-left: 15px;
+}
+.photocard{
+    width: 220px;
+height: 220px;
+}
+.searchbuy{
+    width: 40px;
+    height: 10px;
+    font-size:10px;
+}
+.plases_title{
+    margin-top: 40px;
+    font-size: 17px;
+}
+.intro{
+    height: 550px;
+
+}
+.in-cart{
+    font-size: 17px;
+}
+.block-tours{
+width: 350px;
+height: 200px;    
+display: flex;
+flex-direction: column;
+    flex-wrap: wrap;
+}
+.tit{
+    font-size:14px;
+}
+.tours__text{
+text-align:start ;
+width: 150px;
+}
+.img_tours{
+    width: 100px;
+    height: 100px;
+
+}
+.benefits-text{
+    text-align: start;
+    margin-left:30px;
+}
+
