@@ -345,3 +345,36 @@ flex-wrap: wrap;
     background-color: rgb(11, 106, 143);
     transition: 1s;
 }
+
+@media only screen and (max-width: 750px) {
+    header,
+    fieldset,
+    .items {
+        display: flex;
+    }
+    #header ul {
+        display: none;
+    }
+    .item {
+        max-width: 400px;
+    }
+    #intro-title {
+        font-size: 20px;
+    }
+    #btn_search {
+        margin-top: 30px;
+    }
+    #nav-icon {
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: beige;
+        border-radius: 5px;
+    }
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(83, 83, 83);
+        margin: 4px;
+    }
+}
